@@ -1,0 +1,6 @@
+framework module Pods_AFCTools_Tests {
+  umbrella header "Pods-AFCTools_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

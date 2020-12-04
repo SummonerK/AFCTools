@@ -1,0 +1,6 @@
+framework module AFCTools {
+  umbrella header "AFCTools-umbrella.h"
+
+  export *
+  module * { export * }
+}
