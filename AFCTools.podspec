@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AFCTools'
-  s.version          = '0.1.0'
+  s.version          = '1.0.1'
   s.summary          = 'A short description of AFCTools.'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/SummonerK/AFCTools.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Lofi' => 'fei.luo@freemud.cn' }
+  s.author           = { 'Lofi' => 'solluffy@163.com' }
   s.source           = { :git => 'https://github.com/SummonerK/AFCTools.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

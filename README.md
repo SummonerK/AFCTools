@@ -22,7 +22,7 @@ pod 'AFCTools'
 
 ## Author
 
-Lofi, fei.luo@freemud.cn
+Lofi, solluffy@163.com
 
 ## License
 

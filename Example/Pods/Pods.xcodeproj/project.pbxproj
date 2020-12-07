@@ -11,7 +11,6 @@
 		4E9DB43E89B2D77EBDB693BE9C32442B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		4F4F30025679497258067EE1CB809F8A /* Pods-AFCTools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70A79117919A8FB3860713398EBCC129 /* Pods-AFCTools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		633EE5CA257A2CEC00E124F9 /* AFExt.h in Headers */ = {isa = PBXBuildFile; fileRef = 633EE5C9257A2CEC00E124F9 /* AFExt.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		662C75CCCF2F36873B88090D65D037F0 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B343176754EC5291F5AAC9D19F0BD1D /* ReplaceMe.m */; };
 		68F370B5A11B032CEF3EB683EE46A2CD /* Pods-AFCTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F571A6FAC206AEAE92D3284C5CECD9 /* Pods-AFCTools_Tests-dummy.m */; };
 		8694BFE83C6540623FAC77C367216CB1 /* Pods-AFCTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71E240C3499ACD9C4C22E852FEC392E2 /* Pods-AFCTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AECCE32F13B8FBB9614018A6457A2F9C /* Pods-AFCTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF9263D54B3FFB44B43C37C250B4D73 /* Pods-AFCTools_Example-dummy.m */; };
@@ -38,7 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2B343176754EC5291F5AAC9D19F0BD1D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = AFCTools/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		3003C1CF4C2522102636D600E3CA0D5F /* AFCTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFCTools.release.xcconfig; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3C0774FDE94430434D47C646DB3DC263 /* Pods-AFCTools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AFCTools_Example.modulemap"; sourceTree = "<group>"; };
@@ -138,7 +136,6 @@
 			isa = PBXGroup;
 			children = (
 				633EE5C9257A2CEC00E124F9 /* AFExt.h */,
-				2B343176754EC5291F5AAC9D19F0BD1D /* ReplaceMe.m */,
 				875632921E4E0CC48EA2B7F71F0A422B /* Pod */,
 				203AE6F7BDF181F41E50F7AB3997CC95 /* Support Files */,
 			);
@@ -388,7 +385,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6DD41C419C5A9D93108844CF762E1DE /* AFCTools-dummy.m in Sources */,
-				662C75CCCF2F36873B88090D65D037F0 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 
 #import "ACTViewController.h"
+#import <AFCTools/AFExt.h>
 
 @interface ACTViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    AFLog(@"hello world");
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
